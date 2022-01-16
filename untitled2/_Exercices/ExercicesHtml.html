@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+  <p>Numero de 1 a 10</p>
+  <input type="number" id="num">
+  <button onclick="ver()">Verificar</button>
+  <p id="msg">
+
+  </p>
+
+  <script>
+    function ver() {
+        let txtnum = document.querySelector('#num');
+        let num = Number(txtnum.value);
+        let msg = document.querySelector('#msg');
+        try {
+            if (num > 10) throw `o ${num} é maior que o permitido`;
+            if (num <= 0) throw `O ${num} é menor que o permitido`;
+                msg.innerHTML = `Ótimo, digitaste: ${num}`
+        } catch (e) {
+            msg.innerHTML = `${e}`
+        }
+        finally {
+            document.querySelector('#num').value = '';
+        }
+    }
+
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="FormJS.js"></script>
+    <link rel="stylesheet" type="text/css" href="Css.css">
+    <script src="FormJS.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="header">Lojinha show</h1>
+        <br><br>
+    </header>
+    <main>
+        <div class="tittle">
+        <span id="palavra"><strong>Produtos:</strong></span>
+        <br>
+        </div>
+        <div class="card">
+            <div class="lineInput">
+                <label>Produto</label>
+                <input type="text" id="produto" placeholder="Digite o nome do produto">
+            </div>
+            <div class="lineInput">
+                <label>Preço</label>
+                <input type="text" id="preco" placeholder="Digite o preço do produto">
+
+            </div>
+        </div>
+        <button onclick="product.save()">Salvar</button>
+        <button onclick="product.cancelar()">cancelar</button>
+        <div class="conteudo">
+            <table border="1">
+                <thead>
+                    <th>ID</th>
+                    <th>PRODUTO</th>
+                    <th>PREÇO</th>
+                </thead>
+                <tbody id="tbody">
+
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AdmPessoas/curso-javascript-projeto-usuarios" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Calculadora/curso-javascript-projeto-calculadora-clone-final" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Calculadora2/curso-javascript-projeto-calculadora-clone" vcs="Git" />
+  </component>
+</project>

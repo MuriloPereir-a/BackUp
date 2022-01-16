@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+body{
+    font-family: Ubuntu;
+}
+#header{
+    background-color: blueviolet;
+    width: 400px;
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+}
+#header:hover{
+    color:white;
+    opacity: 90%;
+
+}
+#palavra{
+    font-family: Ubuntu;
+    font-size: 26px;
+}
+main{
+    padding: 10px 20px ;
+}
+.card{
+    padding: 30px;
+    margin-top: 15px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+
+}
+input {
+    padding: 13px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    outline-color: blueviolet;
+    margin-top: 5px;
+}
+
+.lineInput{
+    display: grid;
+    margin: 10px;
+}
+
+button{
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    opacity: 80%;
+    font-family: Ubuntu;
+    background-color: blueviolet;
+    color: white;
+    width: 150px;
+    font-size: 15px;
+}
+button:hover{
+    padding: 5px;
+    opacity: 100%;
+    transition: padding 0.25s;
+    box-sizing: border-box;
+    background-color: #eee5f5;
+    font-size: 20px;
+    color: black;
+    width: 150px;
+}
+table{
+    margin-top: 50px;
+    border-collapse: collapse;
+    border: 1px solid blueviolet;
+    width: 100%;
+}
+table th{
+    background-color: #d9bdf6;
+}
+table th:hover{
+    background-color: #aa81ec;
+    transition: background-color 0.35s;
+}
+table td img{
+    width: 30px;
+
+}
+

@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color: #4faddb;
+    font-family: Ubuntu;
+}
+#card{
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 400px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 25px;
+    text-align: left;
+}
+#txt1{
+    margin-bottom: 10px;
+}
+header{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: "Ubuntu Light";
+}
+button{
+    border-radius: 20px;
+    padding: 9px;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: #474761;
+    color: white;
+    padding: 12px;
+}
+#imagem{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    text-align: center;
+}
